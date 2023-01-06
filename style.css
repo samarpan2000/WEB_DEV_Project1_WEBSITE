@@ -1,0 +1,189 @@
+#container {
+    width: 1020px;
+    /* border: 1px solid grey; */
+    margin: 0px auto;
+}
+
+#header {
+    height: 120px;
+}
+
+#brand {
+    float: left;
+}
+
+#searchBox {
+    float: right;
+    background: -webkit-linear-gradient(#E4F2B9, #B7E953);
+    background: linear-gradient(#E4F2B9, #B7E953);
+    width: 400px;
+    height: 50px;
+    padding: 25px 25px 0px 25px;
+    margin: 25px 0px 0px 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+#textBox {
+    background: white url(images/search.png) right center no-repeat;
+    font-size: 15px;
+    color: orange;
+    float: left;
+    padding: 5px;
+    width: 200px;
+    border-color: #a8fa03;
+
+}
+
+#SearchBtn {
+    float: right;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #9844e5;
+    border: none;
+    padding: 5px;
+
+}
+
+#SearchBtn:hover {
+    cursor: pointer;
+    background-color: #4e0494;
+}
+
+h1 a {
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 100;
+    color: blueviolet;
+}
+
+#menu {
+    background: linear-gradient(rgba(180, 229, 236, 0.247), rgb(0, 191, 255));
+    height: 70px;
+    padding: 7px 0px;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+    border-right: 2px solid #5e01c9;
+    height: 30px;
+    padding: 0px 30px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    /* padding:0px 10px 0px 10px; */
+    font-size: 18px;
+    font-weight: 500;
+    color: #5e01c9;
+    text-transform: uppercase;
+    line-height: 25px;
+    -webkit-transition: font-size 0.5s ease;
+    transition: font-size 0.7s ease;
+}
+
+#menu ul li:last-child {
+    border-right: none;
+}
+
+#menu ul li a:hover,
+#menu ul li a.actived {
+    font-size: 19px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+}
+
+#introBox {
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.993), rgb(39, 212, 242));
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 45px;
+}
+
+#introBox h2 {
+    font-size: 45px;
+    font-weight: normal;
+    color: rgb(11, 107, 107);
+}
+
+#introBox p {
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(11, 107, 107);
+
+}
+
+#leftsidebar {
+    float: left;
+    width: 300px;
+    list-style-image: url(images/arrow.png);
+
+}
+
+#rightsidebar {
+    float: right;
+    width: 700px;
+    list-style-image: url(images/tickResized.png);
+
+}
+
+.stylesidebar {
+    width: 500px;
+    height: 450px;
+    border: 2px solid olive;
+    border-radius: 20px;
+}
+
+#leftsidebar h3,
+#rightsidebar h3 {
+    padding-left: 32px;
+    font-size: 25px;
+    color: #8d29eb;
+}
+
+.stylesidebar ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #4e0494;
+}
+
+.stylesidebar ul li {
+    padding-bottom: 15px;
+    padding-left: 16px;
+}
+
+#rightsidebar ul,
+#leftsidebar ul {
+    padding-left: 75px;
+}
+
+.stylesidebar ul li a {
+    -webkit-transition: font-size 0.2s ease;
+    transition: font-size 0.2s ease;
+}
+
+.stylesidebar ul li a:hover {
+    font-size: 20px;
+    color: deeppink;
+}
+
+.footer {
+    height: 50px;
+    background: linear-gradient(rgba(252, 198, 249, 0.669), rgb(243, 52, 230));
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.footer div p {
+    text-align: center;
+    color: rgb(123, 7, 69);
+    font-weight: bold;
+
+}
