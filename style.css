@@ -26,17 +26,17 @@ body {
 #brand {
     /* float: left; */
     display: flex;
-    flex: 1;
-    min-width: 500px;
+    flex: 50%;
+    min-width: 200px;
 }
 
 #searchBox {
     /* float: right; */
     display: flex;
-    flex: 1;
+    flex: 50%;
     background: -webkit-linear-gradient(#E4F2B9, #B7E953);
     background: linear-gradient(#E4F2B9, #B7E953);
-    min-width: 400px;
+    min-width: 200px;
     justify-content: center;
     align-items: center;
     /* height: 50px; */
@@ -230,4 +230,31 @@ h1 a {
         flex-direction: column;
     }
 
+    .footer {
+        height: 65px;
+    }
+
+    .stylesidebar ul li a {
+        font-size: 16px;
+    }
+
+    .stylesidebar ul li {
+        padding-bottom: 15px;
+        padding-left: 1px;
+    }
+
+    #rightsidebar ul,
+    #leftsidebar ul {
+        padding-left: 55px;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #textBox {
+        margin: 5px;
+    }
 }
